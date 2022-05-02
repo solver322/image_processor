@@ -4,17 +4,19 @@ This is a console application for processing 24-bit BMP files.
 
 ## Description
 
-[image_processor.cpp](https://github.com/A1darI/image_processor/blob/012ecaeb51d8c96ae99dc8248fb0e9c9dace86e8/image_processor.cpp) - initial source file
+[image_processor.cpp](https://github.com/solver322/image_processor/blob/main/image_processor.cpp) - initial source file
 
 filters - all filters implementation
 
 examples - filter application example
 
-file_handling - implementation of reading and writing BMP files
+reader - implementation of reading BMP files
 
-[image.h](https://github.com/A1darI/image_processor/blob/bb41d152d47e1a3b0ba57b9ae46dad3ac8549dbf/image.h) - image representation
+writer - implementation of writing BMP files
 
-[cmd_parser.h](https://github.com/A1darI/image_processor/blob/bb41d152d47e1a3b0ba57b9ae46dad3ac8549dbf/cmd_parser.h) - command line parsing
+[image.h](https://github.com/solver322/image_processor/blob/main/image.h) - image representation
+
+[cmd_parser.h](https://github.com/solver322/image_processor/blob/main/command_parser.h) - command line parsing
 
 
 ### Supported image format
